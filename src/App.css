@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+/*  */
+.nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 1px 4px hsla(0, 4%, 15%, .10);
+  padding: 10px 40px;
+  align-items: center;
+}
+.nav h1 {
+  font-size: 3rem;
+  font-family: "Gabriola";
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.nav ul li {
+  list-style: none;
+  font-family: "poppins";
+  cursor: pointer;
+  margin-top: 10px;
+}
+.nav ul li a {
+  color: black;
+}
+.icon {
+  height: fit-content;
+  overflow-y: hidden;
+}
+/* LANDING */
+.landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 120px;
+  gap: 10rem;
+}
+.landing img {
+  width: 300px;
+  height: 310px;
+  border-radius: 50%;
+}
+.landing .text {
+  text-align: center;
+  margin-top: 60px;
+}
+.landing .text * {
+  margin-bottom: 7px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing .text h5 {
+  font-size: 15px;
+  color: grey;
+}
+.landing .text h2 {
+  font-size: 2.5rem;
+}
+.landing .text h3 {
+  font-size: 1.5rem;
+}
+.landing .text button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-left: 7px;
+  border: black 2px solid;
+  background-color: transparent;
+  cursor: pointer;
+}
+.landing .text .but {
+  background-color: black;
+  color: white;
+}
+/* ABOUT */
+#box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+#box1 img {
+  width: 370px;
+  height: 370px;
+  border-radius: 20px;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 3rem;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  gap: 30px;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+.small {
+  font-size: 14px;
+  color: grey;
+}
+.h1 {
+  font-size: 2.7rem;
+  font-family: "poppins";
+}
+#box1 .parent .child1 {
+  width: 500px;
+  margin-top: 50px;
+}
+#box1 .parent .child1 p {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(50, 50, 50);
+}
+#box1 .parent .child1 .child2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#box1 .parent .child1 .child2 .child2_A {
+  width: 280px;
+  height: 120px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#box1 .parent .child1 .child2 .child2_A h3 {
+  font-size: 20px;
+}
+/* EXPERIENCE */
+#experience {
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+}
+.parents {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  gap: 30px;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+.parents .child_1 {
+  width: 400px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "poppins";
+}
+.parents .child_1 h3 {
+  font-size: 18px;
+
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.parents .child_1 h4 {
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* PROJECTCARD */
+.card {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgdiv {
+  width: 100%;
+  height: 270px;
+  border-radius: 15px;
+  background-color: black;
+}
+.card button {
+  padding: 7px 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+/* PROJECTS */
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.cardbox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 3rem;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  gap: 30px;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+/* CONTACT */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.contactbox {
+  width: 350px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  margin-top: 50px;
+}
+.contactbox a {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+footer {
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+footer ul li {
+  font-family: "poppins";
+  cursor: pointer;
+  margin-top: 10px;
+}
+footer ul li a {
+  color: black;
+}
+@media only screen and (max-width: 779px) {
+
+  .landing {
+    gap: 3rem;
+  }
+  .nav h1 {
+    display: none;
+  }
+  .nav {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 605px) {
+  .landing {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .landing .text {
+    margin-top: 0px;
+  }
+}
